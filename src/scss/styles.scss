@@ -1,0 +1,20 @@
+
+
+//Sass Variables
+
+$theme-colors: (
+  "primary": green
+);
+
+$body-bg: #ededed;
+
+.jumbotron {
+    background: url(../assets/agrichart.jpg);
+    background-size: cover;
+    background-position: 50% 25%;
+    border-top: 3px solid rgb(219, 219, 219);
+}
+
+//Sass Imports
+
+@import "node_modules/bootstrap/scss/bootstrap";
